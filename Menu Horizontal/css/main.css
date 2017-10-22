@@ -1,0 +1,50 @@
+body{
+	font-family: sans-serif;
+}
+nav{
+	
+
+} 
+
+ul{
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
+
+}
+
+li{
+	background: grey;
+	width: 100px;
+	float: left;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	padding-left: 10px;
+	display: block;
+
+}
+a:hover{
+	background: #f9a91a;
+	color: #000;
+}
+a:active{
+	background:#333;
+	color: #FFF; 
+}
+
+ul li:first-child a {
+	color:#FFF;
+	
+}
+ul li:first-child a:hover {
+	color:#000;
+	
+}
+ul li:first-child a:active {
+	color:#FFF;
+	
